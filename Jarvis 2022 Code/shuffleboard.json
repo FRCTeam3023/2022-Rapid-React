@@ -1,0 +1,353 @@
+{
+  "tabPane": [
+    {
+      "title": "SmartDashboard",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "SmartDashboard/",
+      "widgetPane": {
+        "gridSize": 50.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto Mode",
+              "_title": "Auto Mode"
+            }
+          },
+          "2,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Intake Speed",
+              "_title": "Intake Speed"
+            }
+          },
+          "5,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Drive Multiplier",
+              "_title": "Drive Multiplier"
+            }
+          },
+          "7,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Fast Drive Multiplier",
+              "_title": "Fast Drive Multiplier"
+            }
+          },
+          "10,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Low Shot RPM",
+              "_title": "Low Shot RPM"
+            }
+          },
+          "12,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/High Shot RPM",
+              "_title": "High Shot RPM"
+            }
+          },
+          "16,0": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Switch",
+              "_source0": "network_table:///SmartDashboard/Climber Pos Data",
+              "_title": "Climber Pos Data"
+            }
+          },
+          "20,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Switch",
+              "_source0": "network_table:///SmartDashboard/Drivetrain Debug",
+              "_title": "Drivetrain Debug"
+            }
+          },
+          "20,0": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Switch",
+              "_source0": "network_table:///SmartDashboard/Climber Debug",
+              "_title": "Climber Debug"
+            }
+          },
+          "20,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Switch",
+              "_source0": "network_table:///SmartDashboard/Rotate Debug",
+              "_title": "Rotate Debug"
+            }
+          },
+          "20,3": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Switch",
+              "_source0": "network_table:///SmartDashboard/Shooter Debug",
+              "_title": "Shooter Debug"
+            }
+          },
+          "14,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Shooter kf",
+              "_title": "Shooter kf"
+            }
+          },
+          "14,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Shooter kp",
+              "_title": "Shooter kp"
+            }
+          },
+          "16,1": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Drive Type",
+              "_title": "Drive Type"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "LiveWindow",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "LiveWindow/",
+      "widgetPane": {
+        "gridSize": 50.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              5,
+              8
+            ],
+            "content": {
+              "_type": "Subsystem Layout",
+              "_source0": "network_table:///LiveWindow/Intake",
+              "_title": "Intake",
+              "Layout/Label position": "BOTTOM",
+              "_children": [
+                {
+                  "_type": "Subsystem Layout",
+                  "_source0": "network_table:///LiveWindow/IntakeShooter",
+                  "_title": "LiveWindow/IntakeShooter",
+                  "Layout/Label position": "BOTTOM",
+                  "_children": []
+                }
+              ]
+            }
+          },
+          "5,0": {
+            "size": [
+              5,
+              8
+            ],
+            "content": {
+              "_type": "Subsystem Layout",
+              "_source0": "network_table:///LiveWindow/Digital",
+              "_title": "Digital",
+              "Layout/Label position": "BOTTOM",
+              "_children": []
+            }
+          },
+          "10,0": {
+            "size": [
+              5,
+              8
+            ],
+            "content": {
+              "_type": "Subsystem Layout",
+              "_source0": "network_table:///LiveWindow/Ascender",
+              "_title": "Ascender",
+              "Layout/Label position": "BOTTOM",
+              "_children": []
+            }
+          },
+          "15,0": {
+            "size": [
+              5,
+              8
+            ],
+            "content": {
+              "_type": "Subsystem Layout",
+              "_source0": "network_table:///LiveWindow/DriveTrain",
+              "_title": "DriveTrain",
+              "Layout/Label position": "BOTTOM",
+              "_children": []
+            }
+          },
+          "20,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/Victor[3]/Value",
+              "_title": "Ungrouped/Victor[3]/Value"
+            }
+          },
+          "20,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/Talon FX [5]/Value",
+              "_title": "Ungrouped/Talon FX [5]/Value"
+            }
+          },
+          "20,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/DifferentialDrive[1]/Left Motor Speed",
+              "_title": "Ungrouped/DifferentialDrive[1]/Left Motor Speed"
+            }
+          },
+          "20,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/Talon FX [4]/Value",
+              "_title": "Ungrouped/Talon FX [4]/Value"
+            }
+          },
+          "20,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/DifferentialDrive[1]/Right Motor Speed",
+              "_title": "Ungrouped/DifferentialDrive[1]/Right Motor Speed"
+            }
+          },
+          "20,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/Talon FX [2]/Value",
+              "_title": "Ungrouped/Talon FX [2]/Value"
+            }
+          },
+          "20,6": {
+            "size": [
+              3,
+              3
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///LiveWindow/Ungrouped/DigitalInput[1]/Value",
+              "_title": "Ungrouped/DigitalInput[1]/Value",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "0,8": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/Talon FX [1]/Value",
+              "_title": "Ungrouped/Talon FX [1]/Value"
+            }
+          },
+          "2,8": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/Ungrouped/Talon FX [3]/Value",
+              "_title": "Ungrouped/Talon FX [3]/Value"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "windowGeometry": {
+    "x": -12.0,
+    "y": 0.0,
+    "width": 1548.800048828125,
+    "height": 627.2000122070312
+  }
+}
